@@ -1,0 +1,37 @@
+Miro (https://miro.com/es/) Esta herramienta te permitirá crear flujos de información y flujos de negocio.
+
+Balsamic mockups (https://balsamiq.com/wireframes/) Nos da elementos para poder crear interfaces rápidas y que nos dejan representar la idea.
+
+Dibujos a mano alzada --> a veces un wireframe también puede ser en una servilleta o en cualquier forma escrita.
+
+Sketch (https://www.sketch.com/) Esta herramienta solo aplica si tienes una computadora MacOS, pero cuenta con una amplia gama de características enfocadas a diseñadores, lo que hace que se puedan crear cosas muy grandes y escalables.
+
+Figma (https://www.figma.com/) Esta herramienta es gratuita en muchas de sus características y permite colaboración entre usuarios, lo que es muy útil cuando se trabaja en equipo, tanto en equipos de diseño como en equipos de desarrollo.
+
+Adobe XD (https://www.adobe.com/mx/products/xd.html) Existe su versión de prueba gratuita que te dejará ocupar la herramienta completa para crear todos tus diseños y el costo para tener un plan pro no es muy alto, tiene la ventaja de estar basado en las herramientas de Adobe, por lo que si ya tienes experiencia con alguna de estas herramientas, la curva de aprendizaje podría ser más corta.
+
+https://www.pexels.com/es-es/
+https://www.behance.net/search?search=digital%20art&sdid=GZKZXXYX&mv=search
+
+https://colorhunt.co/
+
+https://www.lucidchart.com/pages/es/landing?utm_source=google&utm_medium=cpc&utm_campaign=_chart_es_tier1_mixed_search_brand_exact_&km_CPC_CampaignId=1487565747&km_CPC_AdGroupID=56488588774&km_CPC_Keyword=lucidchart&km_CPC_MatchType=e&km_CPC_ExtensionID=&km_CPC_Network=g&km_CPC_AdPosition=&km_CPC_Creative=284415987027&km_CPC_TargetID=aud-921551090622:kwd-33511936169&km_CPC_Country=1010031&km_CPC_Device=c&km_CPC_placement=&km_CPC_target=&gclid=Cj0KCQjwnP-ZBhDiARIsAH3FSReU9ZPSlost452T6Uocp762T0njp-vhgn6IkHLKqT50PcUOXv6TvrcaAgsQEALw_wcB
+https://www.smartdraw.com/flowchart/flowchart-maker.htm?id=45054&gclid=Cj0KCQjwnP-ZBhDiARIsAH3FSRddfHOvjt9GuDcG2HfUWlGbEyXa3fNZVnaWz-knA64OkCu5Jbq9vwEaAv47EALw_wcB
+
+https://chrome.google.com/webstore/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg?hl=es
+
+https://www.deque.com/axe/devtools/
+
+tipos de letra
+https://www.dafont.com/es/
+https://fonts.google.com/knowledge
+
+flexbox
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+https://flexboxfroggy.com/#es
+https://cssbattle.dev/
+
+https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/
+
+https://www.browserstack.com/guide/top-css-frameworks
