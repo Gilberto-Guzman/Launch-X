@@ -14,6 +14,8 @@
     npx clear-npx-cache 
     npm start 
 
+### "react-scripts" no se reconoce como un comando interno o externo, programa o archivo por lotes ejecutable.
+    npm install react-scripts
 
 ### Comandos principales. 
 #### several commands

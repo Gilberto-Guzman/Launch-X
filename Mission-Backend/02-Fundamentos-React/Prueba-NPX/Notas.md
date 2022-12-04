@@ -10,3 +10,6 @@
 ### Ejecución del proyecto
     cd todo-app
     npm start
+
+### "react-scripts" no se reconoce como un comando interno o externo, programa o archivo por lotes ejecutable.
+    npm install react-scripts
