@@ -23,6 +23,13 @@ body {
   padding: 8px 16px;
   box-shadow: 0 5px 30px rgba(0,0,0,0.2);
 }
+
+.animationchk {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
 // https://www.google.com/search?q=color+picker&oq=color+picke&aqs=chrome.0.0i433i512j69i57j0i512l8.2525j0j7&sourceid=chrome&ie=UTF-8
 // https://www.materialpalette.com/
 // https://coolors.co/
@@ -124,4 +131,67 @@ $colorTextChecked: #85e6e4;
 .todo_line, .todo_box, .todo_check {
   //Todos los datos deben de ser flotantes
   transition: stroke-dashoffset $duracion cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.todo_circle{
+  stroke: $stroke;
+  stroke-dasharray: 1 6;
+  stroke-width: 0;
+
+  transform-origin: 13.5px 12.5px;
+  transform: scale(0.4) rotate(0deg);
+  animation: none $duracion linear;
+
+  @keyframes explode {
+    30% {
+      stroke-width: 3;
+      stroke-opacity: 1;
+      transform: scale(0.8) rotate(40deg);
+    }
+
+    100% {
+      stroke-width: 0;
+      stroke-opacity: 0;
+      transform: scale(1.1) rotate(60deg);
+    }
+  }
+}
+
+.todo_box {
+  stroke-dasharray: 56, 56;
+  stroke-dashoffset: 0;
+  transition-delay: $duracion * 0.2;
+}
+
+.todo_check {
+  stroke: $stroke;
+  stroke-dasharray: 9.8 9.8;
+  stroke-dashoffset: 9;
+  transition-delay: $duracion * 0.4;
+}
+
+.todo_line {
+  stroke-dasharray: 168, 168;
+  stroke-dashoffset: 168;
+}
+
+.todo_circle {
+  animation-delay: $duracion * 0.7;
+  animation-duration: $duracion * 0.7;
+}
+
+.todo_state:checked {
+  //Virgulilla --> Nos permite modificar otras clases dentro de un estado o dentro de un evento
+  ~ .todo_text { 
+    transition-delay: 0s; 
+    color: $colorTextChecked;
+    opacity: 0.6;
+  }
+  ~ .todo_icon .todo_box { stroke-dashoffset: 56; transition-delay: 0s; }
+  ~ .todo_icon .todo_line { stroke-dashoffset: -8; }
+  ~ .todo_icon .todo_check { 
+    stroke-dashoffset: 0; 
+    transition-delay: $duracion * 0.6; 
+  }
+  ~ .todo_icon .todo_circle { animation-name: explode; }
 }

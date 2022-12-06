@@ -35,3 +35,7 @@ localhost:3000
 
 https://dev.mysql.com/downloads/mysql/
 https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/
+
+### Le decimos a todo que si...    
+    npm init --y
+
