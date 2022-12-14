@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- jquery 🠮 No es recomendable su uso -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>  -->
+    
+    <!-- bootstrap 🠮 Hace responsiva tu pagina web -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css"> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+    <title>Practica de NODEJS y HTML</title>
+</head>
+<body>
+    <div style="margin: 24px;">
+        <nav class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="/">Launch X</a>
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/contacto">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="/perfil">Perfil</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="jumbotron" style="padding: 40px;">
+            <h1>Launch X</h1>
+            <p>Registrate a Launch X</p>
+                <form method="POST" action="/">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-4">
+                            <!-- <div class="col-sm-4" style="background-color: black;"> -->
+                                <label>Nombre</label>
+                                <input type="text" name="first_name" 
+                                id="nombre"class="form-control"/>
+                            </div>
+                            <div class="col-sm-4">
+                            <!-- <div class="col-sm-4" style="background-color: blue;"> -->
+                                <label>Correo</label>
+                                <input type="email" name="email_address" 
+                                id="correo" class="form-control"/>
+                            </div>
+                            <div class="col-sm-4">
+                            <!-- <div class="col-sm-4" style="background-color:red;"> -->
+                                <input type="submit" name="submit_button"
+                                class="btn btn-primary" 
+                                value="Registrarse"/>
+                            </div>
+                        </div>
+                    </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
