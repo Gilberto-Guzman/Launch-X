@@ -1,0 +1,16 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc --watch --preserveWatchOutput"
+  },
+  "author": "Gilberto",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdoc": "^4.0.0",
+    "typescript": "^4.9.4"
+  }
+}
